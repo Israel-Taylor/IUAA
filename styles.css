@@ -128,8 +128,17 @@ a{
   font-family: "Roboto Slab", serif;
 }
 .container{
-  width: 900px;
-  margin: auto;
+  background-color: black;
+      width: 93%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 2%;
+    font-family: "Roboto Slab", serif;
+    padding: 20px;
+    color: #d4c8b0;
+    overflow-wrap: break-word;
 }
 .linklook{
   color: blue;
