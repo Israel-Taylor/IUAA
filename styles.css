@@ -246,3 +246,7 @@ background-size: 100%;
   color: white;
   text-align: center;
 }
+ul {
+  margin: 0;
+  padding-left: 0.8em; /* smaller padding for tighter alignment */
+}
