@@ -6,6 +6,7 @@
     float: left;
     display: block;
     margin: 0;
+    position:sticky;
 }
 
 * {box-sizing: border-box;}
@@ -134,7 +135,7 @@ a{
   margin: auto;
 }
 .linklook{
-  color: blue;
+  color: #3654ff;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -174,7 +175,7 @@ a{
 .container >.farleftinfobox{
   background-color: #d4c8b0;
   margin-top: 140px;
-  position: fixed;
+  position:absolute;
   left: 10px;
   font-family: "Roboto Slab", serif;
   float: left;
