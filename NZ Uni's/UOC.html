@@ -31,7 +31,18 @@
           <div class="UOAinfo">
             <button type="button" class="collapsible">Press to reveal possible courses at Auckland University<br>press "control f" on a windows device and "command f" on an apple device to search for specific courses after expanding</button>
 <div class="collapscontent"><!--The content that will be displayed after expanding the info box-->
-</div><!--After this point everything written is info on the university--> <h3>Application Process:</h3><br><br>
+
+    <li>Faculty of Arts (Te Kaupeka Toi Tangata)</li>
+    <li>UC Business School (Te Kura Umanga)</li>
+    <li>Faculty of Education (Te Kaupeka Ako)</li>
+    <li>Faculty of Engineering (Te Kaupeka Pūhanga)</li>
+    <li>Faculty of Health (Te Kaupeka Oranga)</li>
+    <li>Faculty of Law (Te Kaupeka Ture)</li>
+    <li>Faculty of Science (Te Kaupeka Pūtaiao)</li>
+
+</div><!--After this point everything written is info on the university--> 
+If you want to see all of the programmes offered by Canterbury University, refer to <a href="https://www.canterbury.ac.nz/study/academic-study/subjects?s=%21PadreNull&f.Subject%20Level%7CsubjectLevel=Undergraduate%20subject&profile=all-subjects-results-page&num_ranks=20&sort=title&collection=uoc2~sp-aem-all-subjects" class="linklook">Course Options</a>.
+<h3>Application Process:</h3><br><br>
 Students will need to apply through the university's official website. They will need to log in, select their chosen programme, and insert any needed documents, and entry Requirements for their subject.<br><br>
 <br><br>
             <h3>Entry and Programme Requirements:</h3><br> Undergraduate students must meet the spicific Requirements for their chosen course.
@@ -50,7 +61,7 @@ NCEA:<br><br>
 
 In addition to achieving university entrance, some of our undergraduate programmes require you to have taken specific subjects and gained minimum credits in certain subjects. Some programmes have other requirements such as a portfolio, audition and/or interview. 
 
-<p>To find out more about the guaranteed entry requirements for your intended programme(s), please visit the <a href="https://www.aut.ac.nz/study/study-options" class="linklook">Entry Requirements</a> page</p>
+<p>To find out more about the guaranteed entry requirements for your intended programme(s), please visit the <a href="https://www.canterbury.ac.nz/study/academic-study/qualifications?s=%21PadreNull&MBL=300&num_ranks=20&profile=qualifications-results-page&collection=uoc2%7Esp-aem-qualifications&sort=title" class="linklook">Entry Requirements</a> page</p>
 
 <h2 class="pageline">____________________________________________________</h2>
 
@@ -97,10 +108,26 @@ In addition to achieving University Entrance, some of our undergraduate programm
 <li>Submission of a portfolio</li>
 <li>An audition requirement</li>
 <li>An interview requirement</li>
-<li>To find out more about the guaranteed entry requirements for your intended programme(s), please visit the <a href="https://www.aut.ac.nz/study/study-options" class="linklook">Entry Requirements</a> page.</li>
+<li>To find out more about the guaranteed entry requirements for your intended programme(s), please visit the <a href="https://www.canterbury.ac.nz/study/academic-study/qualifications?s=%21PadreNull&MBL=300&num_ranks=20&profile=qualifications-results-page&collection=uoc2%7Esp-aem-qualifications&sort=title" class="linklook">Entry Requirements</a> page.</li>
 
 </div>
           </div>
+          <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+            </script>
     </body>
 </html>
 <!--4. Application Process

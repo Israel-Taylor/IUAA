@@ -29,9 +29,22 @@
         </div>
         <div class="container">
           <div class="UOAinfo">
-            <button type="button" class="collapsible">Press to reveal possible courses at Auckland University<br>press "control f" on a windows device and "command f" on an apple device to search for specific courses after expanding</button>
+            <button type="button" class="collapsible">Press to reveal possible courses at Victoria University Wellington<br>press "control f" on a windows device and "command f" on an apple device to search for specific courses after expanding</button>
 <div class="collapscontent"><!--The content that will be displayed after expanding the info box-->
-</div><!--After this point everything written is info on the university--> <h3>Application Process:</h3><br><br>
+  
+    <li>Faculty of Humanities and Social Sciences</li>
+    <li>Faculty of Science</li>
+    <li>Faculty of Engineering</li>
+    <li>Faculty of Architecture and Design Innovation</li>
+    <li>Faculty of Education</li>
+    <li>Faculty of Health</li>
+    <li>Faculty of Law</li>
+    <li>Wellington School of Business and Government</li>
+    <li>New Zealand School of Music – Te Kōkī</li>
+    
+</div><!--After this point everything written is info on the university--> 
+If you want to see all of the programmes offered by Victoria University Wellington, refer to <a href="https://www.wgtn.ac.nz/study/programmes-courses/subjects" class="linklook">Course Options</a>.
+<h3>Application Process:</h3><br><br>
 Students will need to apply through the university's official website. They will need to log in, select their chosen programme, and insert any needed documents, and entry Requirements for their subject.<br><br>
 <br><br>
             <h3>Entry and Programme Requirements:</h3><br> Undergraduate students must meet the spicific Requirements for their chosen course.
@@ -98,10 +111,27 @@ In addition to achieving University Entrance, some of our undergraduate programm
 <li>An audition requirement</li>
 <li>An interview requirement</li>
 <li>To find out more about the guaranteed entry requirements for your intended programme(s), please visit the <a href="https://www.wgtn.ac.nz/study/apply-enrol/admissions" class="linklook">Entry Requirements</a> page.</li>
-</div>
 <h3>Acceptance Rates:</h3>
-<p>The current accedptance rates for The University of Wellington is about 65%</p>
+<p>The current acceptance rates for The University of Wellington is about 65%</p>
+</div>
+
         </div>
+        <script>
+          var coll = document.getElementsByClassName("collapsible");
+          var i;
+          
+          for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var content = this.nextElementSibling;
+              if (content.style.display === "block") {
+                content.style.display = "none";
+              } else {
+                content.style.display = "block";
+              }
+            });
+          }
+          </script>
     </body>
 </html>
 <!--4. Application Process

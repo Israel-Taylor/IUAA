@@ -31,7 +31,13 @@
           <div class="UOAinfo">
             <button type="button" class="collapsible">Press to reveal possible courses at Auckland University<br>press "control f" on a windows device and "command f" on an apple device to search for specific courses after expanding</button>
 <div class="collapscontent"><!--The content that will be displayed after expanding the info box-->
-</div><!--After this point everything written is info on the university--> <h3>Application Process:</h3><br><br>
+  <li>Faculty of Agribusiness and Commerce</li>
+<li>Faculty of Agriculture and Life Sciences</li>
+<li>Faculty of Environment, Society and Design</li>
+<li>University Studies and English Language Division</li>
+</div><!--After this point everything written is info on the university--> 
+If you want to see all of the programmes offered by Lincoln University, refer to <a href="https://www.lincoln.ac.nz/study/courses-2/course-search/" class="linklook">Course Options</a>.
+<h3>Application Process:</h3><br><br>
 Students will need to apply through the university's official website. They will need to log in, select their chosen programme, and insert any needed documents, and entry Requirements for their subject.<br><br>
 <br><br>
             <h3>Entry and Programme Requirements:</h3><br> Undergraduate students must meet the spicific Requirements for their chosen course.
@@ -103,6 +109,22 @@ In addition to achieving University Entrance, some of our undergraduate programm
 <p>Lincoln University has an average current acceptance rate of around 60%</p>
 </div>
           </div>
+          <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+            </script>
     </body>
 </html>
 <!--4. Application Process
