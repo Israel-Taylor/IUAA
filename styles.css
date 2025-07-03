@@ -107,6 +107,8 @@ background-color: white;
     margin-top: 125px;
     text-align: center;
     border-radius: 5%;
+    font-family: "Roboto Slab", serif;
+    color:black
 }
 .roboto-slab-font1 {
   font-family: "Roboto Slab", serif;
@@ -134,6 +136,7 @@ a{
 .linklook{
   color: blue;
   text-decoration: underline;
+  cursor: pointer;
 }
 .search-container{
   border-radius: 15%;
