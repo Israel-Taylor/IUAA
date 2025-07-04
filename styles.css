@@ -1,6 +1,6 @@
 .logo{
-    height: 110px;
-    width: 110px;
+    height: 150px;
+    width: 150px;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
     float: left;
@@ -92,7 +92,37 @@ body {
   }
  .topnav input[type=text] {
     border: 1px solid #ccc;  
+  } 
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
   }
+
+  .container > .farleftinfobox,
+  .container > .leftinfobox,
+  .container > .rightinfobox {
+    position: static !important;
+    float: none !important;
+    width: 90% !important;
+    margin: 12px auto !important;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+  .container > .farleftinfobox {
+    order: -1;
+  }
+  ol {
+    list-style-position: inside;
+    padding-left: none; 
+    margin-left: none;
+  }
+ 
 }
 .about{
 background-color: white;
@@ -117,6 +147,20 @@ background-color: white;
     border-radius: 5%;
     font-family: "Roboto Slab", serif;
     color:black
+}
+.container >.farleftinfobox{
+  background-color: #d4c8b0;
+  margin-top: 140px;
+  position:absolute;
+  left: 10px;
+  font-family: "Roboto Slab", serif;
+  float: left;
+  width: 15%;
+  height: 60%;
+  overflow-wrap: break-word;
+  padding: 1%;
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
 }
 .roboto-slab-font1 {
   font-family: "Roboto Slab", serif;
@@ -184,20 +228,6 @@ a{
     border-radius: 1%;
     font-family: "Roboto Slab", serif;
     padding: 20px;
-}
-.container >.farleftinfobox{
-  background-color: #d4c8b0;
-  margin-top: 140px;
-  position:absolute;
-  left: 10px;
-  font-family: "Roboto Slab", serif;
-  float: left;
-  width: 15%;
-  height: 60%;
-  overflow-wrap: break-word;
-  padding: 1%;
-  border-top-right-radius: 2%;
-  border-bottom-right-radius: 2%;
 }
 .container >.UOAinfo{
   background-color: black;
