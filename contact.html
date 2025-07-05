@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
       <style class="backgrounds">
+/*CSS inline. The logo section makes the logo stay at the top of the screen when scrolling*/
         .logo{
           position: sticky;
           z-index: 999;
@@ -11,7 +12,8 @@
           color: white;
         }
       </style>
-        <link rel="stylesheet" href="styles.css">
+        <!--Link to CSS, preconnect to google font, viewport for mobile scaling-->
+  <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
@@ -19,7 +21,7 @@
 </head>
     <body>
       <img src="./images/logo.png" alt="logo" class="logo">
-        <div class="topnav">
+         <div class="topnav"> <!--Top Navigation Bar-->
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a class="active" href="contact.html">Contact</a>
@@ -29,7 +31,7 @@
             </div>
           </div>
       <div class="container">
-        <div class="contactsbox">
+        <div class="contactsbox"> <!--This is the info box containing my email address's so that user can contact me-->
           <h2><br><br><br>If you want to ask any questions relating to my website, 
             or if you want to give any feedback relating to my website please contact
           me at:<br><br>Israelhawktaylor@gmail.com (my home account) or 
